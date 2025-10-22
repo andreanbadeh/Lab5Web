@@ -92,8 +92,28 @@ Outputnya :
 ![gambar](https://github.com/andreanbadeh/Lab5Web/blob/f3fb06a4a2726f03ba54529d2f06137248b2db0f/image/Screenshot%20from%202025-10-22%2019-36-22.png)
 
 # 5. Operasi Dasar Aritmatika
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh Pemrograman JavaScript</title>
+    <script>
+        function test(val1, val2) {
+            document.write(`<p>Perkalian: ${val1 * val2}</p>`);
+            document.write(`<p>Pembagian: ${val1 / val2}</p>`);
+            document.write(`<p>Penjumlahan: ${val1 + val2}</p>`);
+            document.write(`<p>Pengurangan: ${val1 - val2}</p>`);
+            document.write(`<p>Modulus: ${val1 % val2}</p>`);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="test(9, 4)">Klik untuk menjalankan fungsi JavaScript</button>
+</body>
+</html>
+```
 
-![gambbar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/e9504d76614239cdf5d2db7edc031ac3ba495409/code%206.png)
 
 Outputnya :
 
