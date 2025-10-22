@@ -49,8 +49,22 @@ Outputnya :
 ![gambar](https://github.com/andreanbadeh/Lab5Web/blob/62d89f5a918aa68743a06e0093185e74aad064b9/image/Screenshot%20from%202025-10-22%2019-30-22.png)
 
 # 3. Pemakaian Method
-
-![gambar](https://github.com/M-Rakha/Lab5Web/blob/main/code%203.png?raw=true)
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Skrip JavaScript</title>
+</head>
+<body>
+    <p>Percobaan memakai JavaScript:</p>
+    <script>
+        document.write("Selamat Mencoba JavaScript!<br>");
+        document.write("Semoga Sukses!");
+    </script>
+</body>
+</html>
+```
 
 Outputnya :
 
