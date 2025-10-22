@@ -303,9 +303,41 @@ Outputnya :
 # Pertanyaan & Tugas
 1. Buat script untuk melakukan validasi pada isian form.
    Contoh kodenya :
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validasi Form dengan JavaScript</title>
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/f93bf34531adf83235f730dbeca92c53408bf92f/tgs%201..png)
+  <link rel="stylesheet" href="index.css">
+
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <h2>Form Validasi JavaScript</h2>
+  <form name="formValidasi" onsubmit="return validasiForm()">
+    <label for="nama">Nama Lengkap</label>
+    <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu">
+
+    <label for="email">Alamat Email</label>
+    <input type="text" id="email" name="email" placeholder="nama@email.com">
+
+    <label for="password">Kata Sandi</label>
+    <input type="password" id="password" name="password" placeholder="Minimal 6 karakter">
+
+    <label class="show-pass">
+      <input type="checkbox" id="showPassword" onclick="togglePassword()"> Tampilkan Password
+    </label>
+
+    <button type="submit">Kirim</button>
+  </form>
+</body>
+</html>
+```
 
 Outputnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/f93bf34531adf83235f730dbeca92c53408bf92f/Cuplikan%20layar%202025-10-22%20002213.png)
+![gambar](https://github.com/andreanbadeh/Lab5Web/blob/7d82f97e2ec1cbe77ce81aaca4779294e2a8fe3e/image/Screenshot%20from%202025-10-22%2019-53-28.png)
