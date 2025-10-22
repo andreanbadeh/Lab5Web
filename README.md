@@ -25,7 +25,7 @@ Contoh code nya :
 
 Outputnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/1c0f7562b6c2121c644103fb520315e652006d4c/code%201.2.png)
+![gambar](https://github.com/andreanbadeh/Lab5Web/blob/74ac15cf89891d4dbbaf30a888a4f5891af7a2b4/image/Screenshot%20from%202025-10-22%2019-28-29.png)
 
 # 2. Pemakaian Alert
 
