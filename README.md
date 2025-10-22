@@ -142,9 +142,40 @@ Outputnya :
 ![gambar](https://github.com/andreanbadeh/Lab5Web/blob/1731d43d15c874818e4fde57ba8a56a921a42a19/image/Screenshot%20from%202025-10-22%2019-40-09.png)
 
 # 7. Penggunaan Operator Switch Untuk Seleksi Kondisi
-
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/39331631332ff0bdacd27538f930a2d088de9b00/code%208.png)
-
+```
+<html>
+<head>
+    <title>contoh program javascript</title>
+    <script language="javascript">
+        function test() {
+            val1 = window.prompt("input nilai (1-5):");
+            switch (val1) {
+                case "1":
+                    document.write("bilangan satu");
+                    break;
+                case "2":
+                    document.write("bilangan dua");
+                    break;
+                case "3":
+                    document.write("bilangan tiga");
+                    break;
+                case "4":
+                    document.write("bilangan empat");
+                    break;
+                case "5":
+                    document.write("bilangan lima");
+                    break;
+                default:
+                    document.write("bilangan lainnya");
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="button" name="button1" value="switch" onclick="test()">
+</body>
+</html>
+```
 Outputnya :
 
 ![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/39331631332ff0bdacd27538f930a2d088de9b00/code%208.2.png)
