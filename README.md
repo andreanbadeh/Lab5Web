@@ -29,18 +29,19 @@ Outputnya :
 
 # 2. Menggunakan Alert
 ```
-<html>
+<!DOCTYPE html>
+<html lang="id">
 <head>
-    <title>alert box</title>
+    <meta charset="UTF-8">
+    <title>Alert Box</title>
 </head>
 <body>
-<script language="javascript">
-<!--
-    window.alert("Hafilla seorang engineer");
-//-->
-</script>
+    <script>
+        alert("Hafilla seorang engineer");
+    </script>
 </body>
 </html>
+
 ```
 
 Outputnya :
