@@ -139,7 +139,7 @@ Outputnya :
 
 Outputnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/39331631332ff0bdacd27538f930a2d088de9b00/code%207.2.png)
+![gambar](https://github.com/andreanbadeh/Lab5Web/blob/1731d43d15c874818e4fde57ba8a56a921a42a19/image/Screenshot%20from%202025-10-22%2019-40-09.png)
 
 # 7. Penggunaan Operator Switch Untuk Seleksi Kondisi
 
