@@ -213,12 +213,43 @@ Outputnya :
 ![gambar](https://github.com/andreanbadeh/Lab5Web/blob/7aadfa50ba4d7ad5d11dbbac448578e89a5307a6/image/Screenshot%20from%202025-10-22%2019-45-00.png)
 
 # 9. Form Button
+```
+<html>
+<head>
+    <title>Objek document</title>
+</head>
+<body>
+    <script language="javascript">
+        <!--
+        function ubahWarnaLB(warna) {
+            document.bgColor = warna;
+        }
+        function ubahWarnaLD(warna) {
+            document.fgColor = warna;
+        }
+        //-->
+    </script>
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/39331631332ff0bdacd27538f930a2d088de9b00/code%2010.png)
+    <h1>Objek Document</h1>
+    <form>
+        <input type="button" value="Latar Belakang Hijau" onClick="ubahWarnaLB('GREEN')">
+        <input type="button" value="Latar Belakang Putih" onClick="ubahWarnaLB('WHITE')">
+        <input type="button" value="Teks Kuning" onClick="ubahWarnaLD('YELLOW')">
+        <input type="button" value="Teks Biru" onClick="ubahWarnaLD('BLUE')">
+    </form>
+
+    <script language="javascript">
+        <!--
+        document.write("Dimodifikasi terakhir pada " + document.lastModified);
+        //-->
+    </script>
+</body>
+</html>
+```
 
 Outputnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/39331631332ff0bdacd27538f930a2d088de9b00/code%2010.2.png)
+![gambar](https://github.com/andreanbadeh/Lab5Web/blob/a0cad58ccfdd3b434f436406b5f90975d173338c/image/Screenshot%20from%202025-10-22%2019-46-48.png)
 
 # 10. Pilihan menggunakan checkBox dengan perhitungan otomatis
 
