@@ -181,8 +181,32 @@ Outputnya :
 ![gambar](https://github.com/andreanbadeh/Lab5Web/blob/7336d929cc0d6b2c29c0ea785ad2adc5c4c05c64/image/Screenshot%20from%202025-10-22%2019-42-06.png)
 
 # 8. Form Input
-
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/39331631332ff0bdacd27538f930a2d088de9b00/code%209.png)
+```
+<html>
+<head>
+    <script language="javascript">
+        function test() {
+            var val1 = document.kirim.T1.value;
+            if (val1 % 2 == 0)
+                document.kirim.T2.value = "bilangan genap";
+            else
+                document.kirim.T2.value = "bilangan ganjil";
+        }
+    </script>
+</head>
+<body>
+    <form method="POST" name="kirim">
+        <p>
+            BIL <input type="text" name="T1" size="20">
+            MERUPAKAN BIL <input type="text" name="T2" size="20">
+        </p>
+        <p>
+            <input type="button" value="TEBAK" name="B1" onclick="test()">
+        </p>
+    </form>
+</body>
+</html>
+```
 
 Outputnya : 
 
