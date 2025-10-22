@@ -7,8 +7,21 @@ KELAS : TI.24.A.4
 
 # 1. Awalan :
 Contoh code nya :
-
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/1c0f7562b6c2121c644103fb520315e652006d4c/code%201.png)
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mengenal Javascript</title>
+</head>
+<body>
+    <h1>Pengenalan Javascript</h1>
+    <h3>Contoh document.write dan console.log</h3>
+    <script>
+        document.write("Hello Word")
+        console.log("Hello Word")
+    </script>
+</body>
+</html>
+```
 
 Outputnya :
 
