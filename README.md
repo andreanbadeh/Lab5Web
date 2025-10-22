@@ -68,7 +68,7 @@ Outputnya :
 
 Outputnya :
 
-![gambar](https://github.com/M-Rakha/Lab5Web/blob/main/code%203.2.png?raw=true)
+![gambar](https://github.com/andreanbadeh/Lab5Web/blob/6c53a6068c5a264c90af2bb5c6754c9224baa036/image/Screenshot%20from%202025-10-22%2019-33-30.png)
 
 # 4. Pemakaian Prompt
 
