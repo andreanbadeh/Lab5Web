@@ -89,7 +89,7 @@ Outputnya :
 
 Outputnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/e9504d76614239cdf5d2db7edc031ac3ba495409/code%204.2.png)
+![gambar](https://github.com/andreanbadeh/Lab5Web/blob/f3fb06a4a2726f03ba54529d2f06137248b2db0f/image/Screenshot%20from%202025-10-22%2019-36-22.png)
 
 # 5. Operasi Dasar Aritmatika
 
