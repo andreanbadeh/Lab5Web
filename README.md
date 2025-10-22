@@ -71,8 +71,21 @@ Outputnya :
 ![gambar](https://github.com/andreanbadeh/Lab5Web/blob/6c53a6068c5a264c90af2bb5c6754c9224baa036/image/Screenshot%20from%202025-10-22%2019-33-30.png)
 
 # 4. Pemakaian Prompt
-
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/e9504d76614239cdf5d2db7edc031ac3ba495409/code%204.png)
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pemasukan Data</title>
+</head>
+<body>
+    <script>
+        const nama = prompt("Siapa nama Anda?", "Masukkan nama Anda");
+        document.write(`Hai, ${nama}`);
+    </script>
+</body>
+</html>
+```
 
 Outputnya :
 
