@@ -46,7 +46,7 @@ Outputnya :
 
 Outputnya :
 
-![gambar](https://github.com/andreanbadeh/Lab5Web/blob/62d89f5a918aa68743a06e0093185e74aad064b9/image/Screenshot%20from%202025-10-22%2019-30-22.png)
+![gambar](https://github.com/andreanbadeh/Lab5Web/blob/f9431659113305d5e3b71207d9cc31d83203051b/image/Screenshot%20from%202025-10-22%2019-55-35.png)
 
 # 3. Pemakaian Method
 ```
