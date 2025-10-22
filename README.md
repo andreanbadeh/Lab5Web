@@ -27,9 +27,21 @@ Outputnya :
 
 ![gambar](https://github.com/andreanbadeh/Lab5Web/blob/74ac15cf89891d4dbbaf30a888a4f5891af7a2b4/image/Screenshot%20from%202025-10-22%2019-28-29.png)
 
-# 2. Pemakaian Alert
-
-![gambar](https://github.com/M-Rakha/Lab5Web/blob/main/code%202.png?raw=true)
+# 2. Menggunakan Alert
+```
+<html>
+<head>
+    <title>alert box</title>
+</head>
+<body>
+<script language="javascript">
+<!--
+    window.alert("Hafilla seorang engineer");
+//-->
+</script>
+</body>
+</html>
+```
 
 Outputnya :
 
