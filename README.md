@@ -178,7 +178,7 @@ Outputnya :
 ```
 Outputnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/39331631332ff0bdacd27538f930a2d088de9b00/code%208.2.png)
+![gambar](https://github.com/andreanbadeh/Lab5Web/blob/7336d929cc0d6b2c29c0ea785ad2adc5c4c05c64/image/Screenshot%20from%202025-10-22%2019-42-06.png)
 
 # 8. Form Input
 
