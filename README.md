@@ -45,7 +45,7 @@ Outputnya :
 
 Outputnya :
 
-![gambar](https://github.com/M-Rakha/Lab5Web/blob/main/code%202.2.png?raw=true)
+![gambar](https://github.com/andreanbadeh/Lab5Web/blob/62d89f5a918aa68743a06e0093185e74aad064b9/image/Screenshot%20from%202025-10-22%2019-30-22.png)
 
 # 3. Pemakaian Method
 
