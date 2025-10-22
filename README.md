@@ -120,8 +120,22 @@ Outputnya :
 ![gambar](https://github.com/andreanbadeh/Lab5Web/blob/68e4d9a7aa9d83974b5a517c469df51f4bc16673/image/Screenshot%20from%202025-10-22%2019-38-14.png)
 
 # 6. Seleksi Kondisi
-
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/39331631332ff0bdacd27538f930a2d088de9b00/code%207.png)
+```
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Contoh If-Else</title>
+</head>
+<body>
+    <script>
+        const nilai = parseInt(prompt("Masukkan nilai (0-100):", 0));
+        const hasil = nilai >= 60 ? "Lulus" : "Tidak Lulus";
+        document.write(`Hasil: ${hasil}`);
+    </script>
+</body>
+</html>
+```
 
 Outputnya :
 
