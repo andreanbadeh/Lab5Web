@@ -210,7 +210,7 @@ Outputnya :
 
 Outputnya : 
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/39331631332ff0bdacd27538f930a2d088de9b00/code%209.2.png)
+![gambar](https://github.com/andreanbadeh/Lab5Web/blob/7aadfa50ba4d7ad5d11dbbac448578e89a5307a6/image/Screenshot%20from%202025-10-22%2019-45-00.png)
 
 # 9. Form Button
 
