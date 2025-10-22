@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validasi Form dengan JavaScript</title>
+
+  <link rel="stylesheet" href="index.css">
+
+  <script src="index.js" defer></script>
+</head>
+
+<body>
+  <h2>Form Validasi JavaScript</h2>
+  <form name="formValidasi" onsubmit="return validasiForm()">
+    <label for="nama">Nama Lengkap</label>
+    <input type="text" id="nama" name="nama" placeholder="Masukkan nama kamu">
+
+    <label for="email">Alamat Email</label>
+    <input type="text" id="email" name="email" placeholder="nama@email.com">
+
+    <label for="password">Kata Sandi</label>
+    <input type="password" id="password" name="password" placeholder="Minimal 6 karakter">
+
+    <label class="show-pass">
+      <input type="checkbox" id="showPassword" onclick="togglePassword()"> Tampilkan Password
+    </label>
+
+    <button type="submit">Kirim</button>
+  </form>
+</body>
+</html>
