@@ -252,12 +252,53 @@ Outputnya :
 ![gambar](https://github.com/andreanbadeh/Lab5Web/blob/a0cad58ccfdd3b434f436406b5f90975d173338c/image/Screenshot%20from%202025-10-22%2019-46-48.png)
 
 # 10. Pilihan menggunakan checkBox dengan perhitungan otomatis
+```
+<html>
+  <head>
+    <title>Daftar Menu</title>
+    <script>
+      function hitung(ele) {
+        var total = document.getElementById('total').value;
+        total = (total ? parseInt(total) : 0);
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/39331631332ff0bdacd27538f930a2d088de9b00/code%2011.png)
+        var harga = 0;
+
+        if (ele.checked) {
+          harga = ele.value;
+          total += parseInt(harga);
+        } else {
+          harga = ele.value;
+          if (total > 0)
+            total -= parseInt(harga);
+        }
+
+        document.getElementById('total').value = total;
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Daftar menu makanan</h1>
+    <label>
+      <input type="checkbox" value="5000" id="menu1" onclick="hitung(this);">
+      Ayam goreng Rp.5.000
+    </label><br/>
+    <label>
+      <input type="checkbox" value="500" id="menu2" onclick="hitung(this);">
+      Tempe goreng Rp.500
+    </label><br/>
+    <label>
+      <input type="checkbox" value="2500" id="menu3" onclick="hitung(this);">
+      Telur dadar Rp.2.500
+    </label><br/>
+    <strong>Total Bayar: Rp. <input id="total" type="text"/></strong>
+  </body>
+</html>
+```
 
 Outputnya :
 
-![gambar](https://raw.githubusercontent.com/M-Rakha/Lab5Web/39331631332ff0bdacd27538f930a2d088de9b00/code%2011.2.png)
+![gambar](https://github.com/andreanbadeh/Lab5Web/blob/7075a5d9b2bcee56502844b0cbe49901df9918dd/image/Screenshot%20from%202025-10-22%2019-49-34.png)
 
 # Pertanyaan & Tugas
 1. Buat script untuk melakukan validasi pada isian form.
